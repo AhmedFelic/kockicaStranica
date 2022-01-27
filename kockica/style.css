@@ -148,7 +148,7 @@ section {
   font-size: 90px;
   font-weight: 700;
   color: white;
-  font-family: Snell Roundhand;
+
   letter-spacing: 6px;
   text-shadow: 5px 5px 0 rgba(61, 60, 60, 0.8);
 }
@@ -202,7 +202,7 @@ section {
   font-size: 35px;
   text-align: center;
   width: 100%;
-  font-family: Snell Roundhand;
+
   font-variant: small-caps;
 }
 
@@ -398,7 +398,10 @@ footer {
   background: #ffffff;
   color: black;
 }
-
+.misljenje {
+  line-height: 27px;
+  font-weight: 700;
+}
 .productname {
   text-transform: uppercase;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -673,6 +676,9 @@ footer {
     width: 100%;
     margin-top: 40px;
   }
+  .gal {
+    margin-top: 300px;
+  }
 }
 
 @media (max-width: 720px) {
@@ -748,10 +754,23 @@ footer {
     margin-top: 30%;
   }
 }
+@media (max-width: 550px) {
+  .home {
+    margin-bottom: 400px;
+  }
+  .gal {
+    margin-top: 200px;
+    padding-bottom: 200px;
+  }
+  #galerija h1 {
+    margin-top: 200px;
+  }
+}
 @media (max-width: 540px) {
   #proizvodi {
     padding-top: 250px;
   }
+
   .logo_slika {
     display: block;
   }
@@ -805,7 +824,11 @@ footer {
     margin-bottom: 100px;
   }
 }
-
+@media (max-width: 537px) {
+  .gal {
+    margin-bottom: 200px;
+  }
+}
 @media (max-width: 430px) {
   .text1 {
     width: 80%;
@@ -817,11 +840,24 @@ footer {
   }
   .home {
     height: 100vh;
-    margin-bottom: 300px;
+    margin-bottom: 500px;
   }
   .gal {
     height: 100vh;
     margin-top: 300px;
     margin-bottom: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .text1 {
+    margin-left: 10%;
+    padding-left: 0;
+    font-size: 40px;
+  }
+  .shop_button {
+    margin-left: 10%;
+  }
+  #proizvodi h1 {
+    margin-top: 100px;
   }
 }
